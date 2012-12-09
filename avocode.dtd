@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!ELEMENT view (button*)>
+<!ELEMENT button ANY>
+
+<!ATTLIST button id CDATA >
