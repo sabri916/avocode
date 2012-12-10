@@ -4,4 +4,3 @@
 <!ATTLIST button id CDATA >
 
 <!ELEMENT text CDATA>
-<!ATTLIST exec
