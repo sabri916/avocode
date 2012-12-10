@@ -1,7 +1,5 @@
 import avocode_component as comp
 
-
-
 def componentFactory(node):
     """
     Require parameters:
@@ -10,6 +8,10 @@ def componentFactory(node):
     if node.tag=='button':
         b=comp.Button(node.attrib['id'],node.text,'yellow')
         return b
+    
+    if node.tag=='text':
+        t=comp.Text(node.attrib['id'],node.attrib['handler'])
+        return t
 
 
 def createDocument(root,filename='output.html'):

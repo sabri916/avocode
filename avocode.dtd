@@ -4,3 +4,5 @@
 <!ATTLIST button id CDATA >
 
 <!ELEMENT text CDATA>
+<!ATTLIST text id CDATA >
+<!ATTLIST button handler CDATA>

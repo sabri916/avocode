@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE view SYSTEM "gui.dtd">
 <view>
-    <button id="1">yellow</button>
-    <button id="2">blue</button>
-    <button id="3">green</button>
-    <button id="4">white</button>
-    <button id="5">black</button>
+    <text id="input1" handler="getTotal" />
+    <text id="input2" handler="getTotal" />
+    <button id="getTotal">yellow</button>
 </view>
