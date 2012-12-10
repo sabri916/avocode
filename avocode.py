@@ -16,4 +16,8 @@ if len(sys.argv)<=1:
 
 tree = ET.parse(sys.argv[1])
 root = tree.getroot()
-createDocument(root,sys.argv[2])
+
+if len(sys.argv)==2:
+    createDocument(root)
+else:
+    createDocument(root,sys.argv[2])
