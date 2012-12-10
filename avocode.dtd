@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
-<!ELEMENT view (button*)>
+<!ELEMENT view (button?)>
 <!ELEMENT button ANY>
-<!ELEMENT text CDATA>
-
 <!ATTLIST button id CDATA >
+
+<!ELEMENT text CDATA>
+<!ATTLIST exec
