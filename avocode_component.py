@@ -27,7 +27,7 @@ class Text(Component):
         Component.__init__(self,ID,'text')
         self.handler=handler #destination page
         self.class_att=class_att #html class attribute for 'btn from bootstrap
-        self.html = '<input name=\"'+self.ID+'\" class=\"'+self.class_att+'\" type=\"text\" placeholder=\"Type something\">'
+        self.html = '<input name=\"'+self.ID+'\" class=\"'+self.class_att+'\" type=\"text\" placeholder=\"\">'
         
     def getHtml(self):
         return self.html
